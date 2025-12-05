@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
@@ -144,4 +145,9 @@ public class Member {
     private void validateMembershipType(String membershipType) {
         if (membershipType == null || !VALID_TYPES.contains(membershipType)) throw new IllegalArgumentException("Error: membershipType harus Silver/Gold/Platinum");
     }
+=======
+package PACKAGE_NAME;
+
+public class Member {
+>>>>>>> e0f232aa685968f553a1e4a3ac2775f68a570afd
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
@@ -125,4 +126,9 @@ public class Book {
         this.availableCopies = availableCopies;
         this.isAvailable = availableCopies > 0;
     }
+=======
+package PACKAGE_NAME;
+
+public class Book {
+>>>>>>> e0f232aa685968f553a1e4a3ac2775f68a570afd
 }
